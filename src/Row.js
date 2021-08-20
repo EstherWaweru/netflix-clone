@@ -11,7 +11,6 @@ function Row({title,fetchUrl,isLargeRow}){
         //pull information when the component loads,[]blank run once
         async function fetchData(){
             const request = await axios.get(fetchUrl);
-            console.log(request.data.results);
             setMovies(request.data.results);
             return request;
         }
