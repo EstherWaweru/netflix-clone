@@ -4,6 +4,7 @@ import './App.css';
 import Row from './Row';
 import requests from './requests';
 import Banner from './Banner'
+import Nav from './Nav';
 //console.log(process.env.REACT_APP_API_KEY)
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
     <div className="app">
      {/* Nav */}
      {/* Banner */}
+     <Nav/>
      <Banner/>
 
      <Row title = "NETFLIX ORIGINALS" fetchUrl={requests.fetchNetflixOriginals} 
