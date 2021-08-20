@@ -3,7 +3,7 @@ import axios from "./axios";
 import "./Row.css";
 
 const baseurl = "https://image.tmdb.org/t/p/original/";
-function Row({title,fetchUrl}){
+function Row({title,fetchUrl,isLargeRow}){
     //states are like variables to store temporary data
     const [movies,setMovies] = useState([]);
     // A snippet that runs based on specific conditions/variables
@@ -29,8 +29,9 @@ function Row({title,fetchUrl}){
                 {movies.map(movie => (
                     <img 
                     key={movie.id}
-                    className="row_poster"
-                    src = {`${baseurl}${movie.poster_path}`} alt ={movie.name}/>
+                    className={`row_poster ${isLargeRow && "row_posterLarge"}`}
+                    src = {`${baseurl}${isLargeRow ? movie.poster_path : movie.backdrop_path}`} 
+                    alt ={movie.name}/>
                 ))}
 
             </div>
