@@ -1,70 +1,63 @@
-# Getting Started with Create React App
+# Netflix Clone
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## About Project
+This projects utilizes the following tools
+1. React JS
+2. movie-trailer
+3. react-youtube
+4. axios
+5. firebase
+6. TMDB Service 
 
-In the project directory, you can run:
+## Installation
+To install this application in your machine:
+1. Clone the repository.
+2. Install npm,and additional packages(npm i axios,npm i react-youtoube,npm i movie-trailer)
+3. Use any of your favourite ide to access it
+4. To run it locally run npm start and the app will be running on localhost:3000
 
-### `npm start`
+## Deployment
+To deploy on firebase:
+1. Create an account with firebase and head to firebase console
+2. Create a new project and choose the web option.Follow the extra steps .
+3. Install the firebase npm dependency
+4. Login to firebase console (firebase login)
+5. Run firebase init and folllow the steps .
+6. Run npm build
+7. Run firebase deploy and access the app on your browser with the given url.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+ ### Screenshots showing categories
 
-### `npm test`
+![Screenshot from 2021-08-20 17-30-54](https://user-images.githubusercontent.com/37073110/130249575-89f04274-0250-431c-8b10-4e72b024e5a9.png)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![Screenshot from 2021-08-20 17-31-58](https://user-images.githubusercontent.com/37073110/130249669-1785400a-8561-448f-837a-a5e0c1e13e8a.png)
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Movie and TV show Trailer
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![Screenshot from 2021-08-20 17-32-24](https://user-images.githubusercontent.com/37073110/130249609-6540dd37-7996-46fe-8ab6-916a359f5463.png)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Attribution
+This project uses TMDb API but is not endorsed or certified by TMDb.
 
-### `npm run eject`
+## Live Link
+This project is hosted on firebase.\
+Open [https://netfilx-clone-e0286.web.app/](https://netfilx-clone-e0286.web.app/) to view it in the browser
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Contribution
+This project is contributed by:
+ 
+ @clevergazi
+ 
+ @ssssanghae
+ 
+ @EstherWaweru
+ 
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
